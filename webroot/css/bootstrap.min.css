@@ -7874,6 +7874,15 @@ body {
 	}
 }*/
 /**
+ * Responsive images in posts
+ */
+.node-type-blog .panel-body img {
+  display: block;
+  width: 100% \9;
+  max-width: 100%;
+  height: auto;
+}
+/**
  * Additionnal zone in panels, should be placed under the heading div
  */
 .panel-about {
