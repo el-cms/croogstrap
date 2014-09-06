@@ -1,0 +1,137 @@
+/**
+ * Additionnal mixins
+ */
+.border-radius(@radius){
+	.border-top-radius(@radius);
+	.border-bottom-radius(@radius);
+}
+
+/**
+ * Additionnal vars
+ */
+// Should match your image height in "comment" element
+@comment-thumb-height:48px;
+
+/**
+ * Default body padding to escape fixed navbar
+ */
+body{
+	margin-top:50px;
+	margin-bottom:30px;
+}
+/*#title{
+
+	.border-bottom-radius(15px);
+	.hidden-xs;
+	padding: 15px;
+	margin-top:-15px;
+	margin-bottom:15px;
+	h1{
+		margin:0px;
+		padding:0px;
+		font-size:3em;
+		small{
+			font-size:0.7em;
+		}
+	}
+	a{
+		.navbar-brand;
+	}
+}*/
+
+/**
+ * Additionnal zone in panels, should be placed under the heading div
+ */
+.panel-about{
+	.panel-body;
+	font-size:0.8em;
+	border-bottom: 1px solid @panel-inner-border;
+	background-color: darken(@panel-footer-bg, 5%);
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+/**
+ * Applying list-group-item classe to vocabulary blocks
+ */
+.block-list-group{
+	/*		.panel-body{
+				padding:0px;
+			}*/
+	.list-group{
+		border:none;
+		margin:0px;
+	}
+	li{
+		.list-group-item;
+		padding:0px;
+		border:none;
+	}
+}
+
+/**
+ * Comments
+ */
+.comment, .commentauthor{
+	.media-body{
+		border: 1px solid @panel-default-border;
+		padding:0px 5px 5px 5px;
+	}
+	.media-heading{
+		height: @comment-thumb-height;
+		border-bottom: 1px dashed @panel-default-border;
+		margin: 0px -5px;
+		padding: 12px 5px 0px 5px;
+	}
+}
+
+.comment-form{
+	margin-top:15px;
+}
+
+/**
+ * Footer
+ */
+#footer{
+	min-height:23px;
+	max-height:23px;
+	padding:0px;
+	.navbar-text{
+		margin:0px;
+		padding: 0px;
+	}
+}
+
+
+/**
+ * Footer menu
+ */
+.footerMenu{
+	margin:0px 3px;
+	padding:0px;
+	list-style-type: none;
+	li{
+		display:inline;
+		margin:0px;
+		padding: 0px 15px 0px 0px;
+	}
+}
+/**
+ * Register form
+ */
+.form-register{
+	.box-shadow(0 3px 5px rgba(0,0,0,.125));
+/*	h2{
+		margin:0px -15px;
+		padding:3px 15px;
+		font-size: 1.5em;
+		background-color: @panel-default-border;
+		border-bottom:1px solid @panel-default-border;
+	}*/
+	h3{
+		margin:0px -15px 5px -15px;
+		padding:3px 15px;
+		font-size: 1.2em;
+		border-bottom:1px solid @panel-default-border;
+	}
+}

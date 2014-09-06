@@ -1,0 +1,22 @@
+.admin-toolbar{
+	border-bottom: 1px solid #CCC;
+	background-color: #EEE;
+	position: fixed;
+	top: 45px;
+	left: 170px;
+	width: 100%;
+	border-top-left-radius: 5px;
+	padding-left: 20px;
+	padding: 5px 20px;
+}
+
+.admin-toolbar-group{
+	display: inline;
+	margin-right: 15px;
+	font-size: 0.8em;
+	color: #777;
+}
+
+.breadcrumb{
+	margin: 20px 0px 0px;
+}

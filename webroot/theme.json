@@ -1,0 +1,18 @@
+{
+  "name" : "Croogstrap",
+  "description" : "Twitter Bootstrap3 theme for croogo 2.x series",
+  "screenshot" : "screenshot.png",
+
+  "author" : "Manuel Tancoigne",
+  "authorEmail" : "m.tancoigne@gmail.com",
+  "authorUrl" : "http://experimentslabs.com",
+
+  "menus" : [
+    "main",
+		"footer"
+    ],
+
+  "regions" : [
+    "right"
+    ]
+}
