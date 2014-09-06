@@ -8008,7 +8008,9 @@ body {
 /**
  * Register form
  */
-.form-register {
+.form-register,
+.form-recover,
+.form-login {
   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125);
   /*	h2{
@@ -8020,7 +8022,9 @@ body {
 	}*/
 
 }
-.form-register h3 {
+.form-register h3,
+.form-recover h3,
+.form-login h3 {
   margin: 0px -15px 5px -15px;
   padding: 3px 15px;
   font-size: 1.2em;
