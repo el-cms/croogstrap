@@ -9,10 +9,24 @@
 
   "menus" : [
     "main",
-		"footer"
-    ],
+    "footer"
+  ],
 
   "regions" : [
     "right"
-    ]
+  ],
+
+  "settings": {
+    "css": {
+      "formInput": "form-control"
+    },
+    "prefixes": {
+      "": {
+        "helpers": {
+          "Html": { "className": "Croogo.CroogoHtml" },
+          "Form": { "className": "Croogo.CroogoForm" }
+        }
+      }
+    }
+  }
 }
