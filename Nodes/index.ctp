@@ -9,7 +9,7 @@
 	foreach ($nodes as $node):
 		$this->Nodes->set($node);
 		?>
-		<div id="node-<?php echo $this->Nodes->field('id'); ?>" class="panel panel-default node-type<?php echo $this->Nodes->field('type'); ?>">
+		<div id="node-<?php echo $this->Nodes->field('id'); ?>" class="panel panel-default node-type-<?php echo $this->Nodes->field('type'); ?>">
 			<div class="panel-heading">
 				<h3 class="panel-title"><?php echo $this->Html->link($this->Nodes->field('title'), $this->Nodes->field('url')); ?></h3>
 			</div>
